@@ -1,0 +1,23 @@
+var n = 3;
+n = n - 10;
+n = n + 5;//outros operadores /, *, %
+//n = n * 10;
+n *= 10;//igual o de cima
+console.log(n);
+
+var x = 10;
+x++;//encremento
+console.log(x);
+x--;//decremento
+console.log(x);
+
+console.log(n < x);//retorna verdadeiro ou falso
+console.log(n < x);
+
+b = 20;
+c = 60;
+
+console.log(n <= x && b != c);//operador de comparacao &&(e)
+console.log(n <= x || b != c);//operadoe de comparacao ||(ou)
+//O != significa nao igual (diferente)
+
