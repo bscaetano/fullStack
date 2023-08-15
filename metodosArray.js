@@ -37,3 +37,16 @@ console.log(" O valor retirado foi: "+novos);
 console.log(" O valor do array agora é: "+nomes);
 //OBS.: pode ser retirado e substituido mais valores utilizando
 //var novos = nomes.splice(1,2,"nome1","nome2");
+
+//diferente do splice(), o método slice() não corta os dados
+//do array original, somente realiza uma cópia dos dados determinados.
+var pessoa = ["Eduardo","Joana","Wallace","Rosana"];
+var gerente = ["Davi","Manuela"];
+var pessoas1 = pessoa.slice(1,3);
+
+console.log(pessoa);//array original não sofreu alterações.
+console.log(pessoas1);//novo array com os dados selecionados.
+//concatenando valores de arrays
+var empresa = pessoa.concat(gerente);
+
+console.log(empresa);//array com os valores concatenados.
